@@ -10,11 +10,6 @@ Pacco is an open source project using microservices architecture written in .NET
 
 Pacco.Services.Operations is the microservice being part of [Pacco](https://github.com/devmentors/Pacco) solution.
 
-|Branch             |Build status                                                  
-|-------------------|-----------------------------------------------------
-|master             |[![master branch build status](https://api.travis-ci.org/devmentors/Pacco.Services.Operations.svg?branch=master)](https://travis-ci.org/devmentors/Pacco.Services.Operations)
-|develop            |[![develop branch build status](https://api.travis-ci.org/devmentors/Pacco.Services.Operations.svg?branch=develop)](https://travis-ci.org/devmentors/Pacco.Services.Operations/branches)
-
 **How to start the application?**
 ----------------
 
