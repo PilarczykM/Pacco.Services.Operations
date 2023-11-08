@@ -1,9 +1,8 @@
-namespace Pacco.Services.Operations.Api.Types
+namespace Pacco.Services.Operations.Api.Types;
+
+public enum OperationState
 {
-    public enum OperationState
-    {
-        Pending,
-        Completed,
-        Rejected
-    }
+	Pending,
+	Completed,
+	Rejected
 }

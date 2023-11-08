@@ -1,7 +1,6 @@
-namespace Pacco.Services.Operations.Api.Types
+namespace Pacco.Services.Operations.Api.Types;
+
+public class SignalrOptions
 {
-    public class SignalrOptions
-    {
-        public string Backplane { get; set; }
-    }
+	public string Backplane { get; set; }
 }
