@@ -1,8 +1,7 @@
 using Convey.CQRS.Events;
 
-namespace Pacco.Services.Operations.Api.Types
+namespace Pacco.Services.Operations.Api.Types;
+
+public class Event : IEvent, IMessage
 {
-    public class Event : IEvent, IMessage
-    {
-    }
 }

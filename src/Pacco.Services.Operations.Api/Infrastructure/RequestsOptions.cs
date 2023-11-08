@@ -1,7 +1,6 @@
-namespace Pacco.Services.Operations.Api.Infrastructure
+namespace Pacco.Services.Operations.Api.Infrastructure;
+
+public class RequestsOptions
 {
-    public class RequestsOptions
-    {
-        public int ExpirySeconds { get; set; }
-    }
+	public int ExpirySeconds { get; set; }
 }

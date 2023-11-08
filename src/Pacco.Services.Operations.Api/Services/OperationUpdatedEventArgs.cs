@@ -1,15 +1,14 @@
 using System;
 using Pacco.Services.Operations.Api.DTO;
 
-namespace Pacco.Services.Operations.Api.Services
-{
-    public class OperationUpdatedEventArgs : EventArgs
-    {
-        public OperationDto Operation { get; }
+namespace Pacco.Services.Operations.Api.Services;
 
-        public OperationUpdatedEventArgs(OperationDto operation)
-        {
-            Operation = operation;
-        }
-    }
+public class OperationUpdatedEventArgs : EventArgs
+{
+	public OperationDto Operation { get; }
+
+	public OperationUpdatedEventArgs(OperationDto operation)
+	{
+		Operation = operation;
+	}
 }

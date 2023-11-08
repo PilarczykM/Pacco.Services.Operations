@@ -1,7 +1,6 @@
-namespace Pacco.Services.Operations.Api.Types
+namespace Pacco.Services.Operations.Api.Types;
+
+// Marker
+public interface IMessage
 {
-    // Marker
-    public interface IMessage
-    {
-    }
 }
